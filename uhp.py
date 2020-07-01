@@ -463,7 +463,7 @@ class HPFeedsHandler(logging.Handler):
         self.publisher.publish(self.channel, msg)
         logger.debug("HPF: sent" + msg)
 
-if __name__ == "__main__":
+def main():
     # Parse the command line arguments
     parser = argparse.ArgumentParser()
     parser.add_argument("config_file", help="Config file")
@@ -623,3 +623,6 @@ if __name__ == "__main__":
 
     while True:
         time.sleep(1)
+        
+if __name__ == "__main__":
+        main()
