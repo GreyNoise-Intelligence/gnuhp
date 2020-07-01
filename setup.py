@@ -32,7 +32,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'uhp = uhp:main'
+            'uhp = uhp.uhp:main'
         ]
     },
     keywords=['uhp', 'honeypot', 'universal']
