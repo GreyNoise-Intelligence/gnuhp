@@ -17,7 +17,7 @@ setup(
     maintainer_email = "test@example.comm",
     license="BSD",
     packages=find_packages(),
-    install_requires=['authbind'],
+    install_requires=[],
     long_description=read('README.md'),
     classifiers=[
         'Development Status :: 4 - Beta',
