@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 # usage: uhp.py [-h] [-H HOST] [-f FILE] [-a AUTO_MACHINE_DIR]
 #                      [-m MAX_BYTES] [-v] [-q] [-r] [-j] [-s]
